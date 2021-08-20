@@ -1,0 +1,138 @@
+
+.pos1{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.pos2{
+    position: relative;
+    right: 50px;
+
+}
+.pos3{
+    position: absolute;
+    right: 115px;
+    top: 105px;
+}
+
+.container-parent{
+    border:darkgoldenrod 4px solid;
+    margin: 0;
+    margin: 100px;
+    background: #F0F0CB;
+}
+.tag{
+    border: 2px solid red;
+    width: 300px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-width: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    
+
+}
+p{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.outerCircle{
+    border: 3px inset black;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    
+    margin-left: 100px;
+    text-align: center;
+    padding: 20px;
+    background-color: #DAD5AB;
+    color: #082032;
+    display: inline-block;
+    box-shadow: 3px 4px 3px 4px gray;
+}
+.innerCircle{
+    
+    text-shadow: 2px 2px gray;
+    
+    padding: 20px;
+    margin: 10px;
+    
+    
+    
+}
+.register-container{
+    border: 3px outset crimson;
+    width: 24% ;
+    height: 420px;
+    text-align: center;
+    background-color: #DAD0C2;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 3px 4px 3px 4px gray;
+
+}
+.register-page{
+    padding: 15px;
+    margin:10px;
+    background-color: gray;
+    text-align: center;
+    justify-content: space-around;
+}
+.menu-tittle{
+    border: 0px solid #5F7A61;
+    width: 300px;
+    height: 40px;
+    background-color: #C2FFD9;
+    color: #261C2C;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    font-family: cursive;
+    text-shadow: 4px 3px #87A8A4;
+    
+}
+.container-parent-menu{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    flex-direction: inherit;
+    background-color: #C2FFD9;
+    
+}
+.menulist{
+    border: 0px solid black;
+    width: 30%;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    text-align: center;
+    margin-top: 40px;
+    background-color: #D5EEBB;
+    color:darkslategrey;
+    box-shadow: 4px 6px 5px 3px gray;
+    
+    font-size: 18px;
+}
+.menu-head{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: cursive;
+    color: #B61919;
+    /* background-color: black; */
+    border-top-left-radius: 8px;
+    text-shadow: 4px 3px #87A8A4;
+}
+li{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: cursive;
+}
